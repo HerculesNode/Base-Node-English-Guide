@@ -16,11 +16,10 @@ Base is a Coinbase Brand, so I think every transaction is important. <br>
  * [Hercules Twitter](https://twitter.com/Hercules4413)
  * [Base Dc](https://discord.gg/buildonbase)
  
- ## 🟢 System features
+ ## 🟢 Hardware requirements
 
-Gereksinimler:
-- 16 GB RAM
-- 100 GB Yer
+-at least 16 GB RAM
+-an SSD drive with at least 100 GB free
 
 
 ## 🟢 System Update
@@ -111,7 +110,7 @@ After the operations are finished, you will see a log in this way Synchronising.
 #### 🟢 Useful commands
 
 
-After doing docker compose up, come to the main directory. Do not do it in Screen. Enter the command below and you should get output as in the picture.
+After doing `docker compose up` , come to the main directory. Do not do it in Screen. Enter the command below and you should get output as in the picture.
 
 ```
 curl -d '{"id":0,"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["latest",false]}' \
@@ -132,4 +131,4 @@ echo Latest synced block behind by: $((($(date +%s)-$( \
 ```
 
 
-Do not fork to fork and like :)
+don't forget to like and Fork :)
