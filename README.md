@@ -18,8 +18,8 @@ Base is a Coinbase Brand, so I think every transaction is important. <br>
  
  ## 🟢 Hardware requirements
 
--at least 16 GB RAM
--an SSD drive with at least 100 GB free
+ * at least 16 GB RAM
+ * an SSD drive with at least 100 GB free
 
 
 ## 🟢 System Update
