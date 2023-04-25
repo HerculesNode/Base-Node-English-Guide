@@ -20,6 +20,21 @@ Base is a Coinbase Brand, so I think every transaction is important. <br>
 
  * at least 16 GB RAM
  * an SSD drive with at least 100 GB free
+ 
+ 
+## 🟢 v0.1.1 Update
+```shell
+docker-compose stop
+``` 
+
+```shell
+docker-compose build
+``` 
+
+```shell
+docker-compose up
+``` 
+ 
 
 
 ## 🟢 System Update
@@ -94,7 +109,7 @@ nano docker-compose.yml
 this process will take a while, wait. You will get a printout like in the picture. <br>
 
 ```
-docker compose up --build
+docker compose up
 ```
 
 ![image](https://user-images.githubusercontent.com/101635385/224575974-59704a03-6f97-4831-9461-03fee8d00793.png)
