@@ -22,21 +22,6 @@ Base is a Coinbase Brand, so I think every transaction is important. <br>
  * an SSD drive with at least 100 GB free
  
  
-## 🟢 v0.1.1 Update
-```shell
-docker-compose stop
-``` 
-
-```shell
-docker-compose build
-``` 
-
-```shell
-docker-compose up
-``` 
- 
-
-
 ## 🟢 System Update
 ```shell
 sudo apt update
@@ -78,14 +63,7 @@ cd node
 
 #### 🟢 4. Let's edit the Compose file
 
-We will log in to the docker-compose.yml file and add only ETH-Goerli RPC here. I use Blockpi, you can use a different provider if you want.
-whoever wants can register and get it here. You will get it as in the picture.
-
-https://blockpi.io/
-
-![image](https://user-images.githubusercontent.com/101635385/224577347-9efa6881-6fde-42cd-843b-9378cb0bcd05.png)
-
-
+We will log in to the docker-compose.yml file and add only ETH-Goerli RPC here.
 
 
 <br><br>
@@ -98,7 +76,7 @@ Replace it with the RPC you received here and save with ctrl + x.
 nano docker-compose.yml
 ```
 
-![image](https://user-images.githubusercontent.com/101635385/224575903-f8e376ab-e7ff-42c9-bd11-3518a35e2092.png)
+![image](https://user-images.githubusercontent.com/101635385/234244308-142ad22a-fd18-4399-a441-b10a174ebdce.png)
 
 
 
@@ -119,6 +97,21 @@ After the operations are finished, you will see a log in this way Synchronising.
 
 ![image](https://user-images.githubusercontent.com/101635385/224576077-60d2aae7-5dbc-42a5-8881-42e7a29afb62.png)
 
+
+
+## 🟢 v0.1.1 Update
+```shell
+docker-compose stop
+``` 
+
+```shell
+docker-compose build
+``` 
+
+```shell
+docker-compose up
+``` 
+ 
 
 <br>
 
