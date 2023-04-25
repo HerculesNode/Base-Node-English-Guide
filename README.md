@@ -22,7 +22,7 @@ Base is a Coinbase Brand, so I think every transaction is important. <br>
  * an SSD drive with at least 100 GB free
  
  
-## 🟢 System Update
+## :one: System Update
 ```shell
 sudo apt update
 ```
@@ -32,7 +32,7 @@ sudo apt upgrade
 ```
 
 
-## 🟢 Docker Setup
+## :two: Docker Setup
 
 ```shell
 apt install docker-compose
@@ -45,23 +45,23 @@ sudo apt-get update && sudo apt install jq && sudo apt install apt-transport-htt
 ```
 <br><br>
 
-#### 🟢 1. Clone Base Files.
+## :three: Clone Base Files.
 
 ```
 git clone https://github.com/base-org/node.git
 ```
 
-#### 🟢 2.Screen create
+## :four: Screen create
 ```
 screen -S base
 ```
 
-#### 🟢 3.Base directory
+## 5️⃣ Base directory
 ```
 cd node
 ```
 
-#### 🟢 4. Let's edit the Compose file
+## 6️⃣ Let's edit the Compose file
 
 We will log in to the docker-compose.yml file and add only ETH-Goerli RPC here.
 
@@ -80,7 +80,7 @@ nano docker-compose.yml
 
 
 
-#### 🟢 5.Let's start our node.
+## 7️⃣ Let's start our node.
 
 <br>
 
