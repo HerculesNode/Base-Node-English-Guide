@@ -87,7 +87,7 @@ nano docker-compose.yml
 this process will take a while, wait. You will get a printout like in the picture. <br>
 
 ```
-docker compose up
+docker compose up --build
 ```
 
 ![image](https://user-images.githubusercontent.com/101635385/224575974-59704a03-6f97-4831-9461-03fee8d00793.png)
