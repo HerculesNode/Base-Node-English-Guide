@@ -99,7 +99,7 @@ After the operations are finished, you will see a log in this way Synchronising.
 
 
 
-## 🟢 v0.1.1 Update
+## 🟢 v0.2.0 Update
 ```shell
 docker-compose stop
 ``` 
